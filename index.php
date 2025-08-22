@@ -16,8 +16,8 @@ $waktu = date("Y-m-d H:i:s");
 </head>
 <body>
     <div class="container">
-        <h1>SELAMAT DATANG DI WESBITE PHP PAUNDRA!, SEMOGA AND ASEHAT SELALU DAN RAJIN MAKAN MIE AYAM</h1>
-        <p>Halo <strong><?= htmlspecialchars($nama) ?></strong></p>
+        <h1>SELAMAT DATANG DI WESBITE PHP PAUNDRA!</h1>
+        <p>Semoga anda sehat selalu, sejahtera, dan dilimpahkan rejekinya. Dan lulus 2,5 TAHUN <strong><?= htmlspecialchars($nama) ?></strong></p>
         <div class="box">
             <p>Waktu server: <code><?= $waktu ?></code></p>
             <p>Dijalankan di <strong>Docker</strong> di Hugging Face Spaces ✅</p>
