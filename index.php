@@ -1,6 +1,6 @@
 <?php
 // index.php
-$nama = "Peserta Praktik";
+$nama = " Atmin Mie ayam";
 $waktu = date("Y-m-d H:i:s");
 ?>
 <!DOCTYPE html>
@@ -16,8 +16,8 @@ $waktu = date("Y-m-d H:i:s");
 </head>
 <body>
     <div class="container">
-        <h1>SELAMAT DATANG DI WESBITE PAUNDRA!</h1>
-        <p>Semoga anda sehat selalu, sejahtera, dan dilimpahkan rejekinya. Dan lulus 2,5 TAHUN <strong><?= htmlspecialchars($nama) ?></strong></p>
+        <h1>WELCOME TO MIE AYAM WEBSITE</h1>
+        <p>Semoga dengan adanya wesbite ini para mie ayam diseluruh dunia kesejahteraannya meningkat dan menjadi lebih baiik <strong><?= htmlspecialchars($nama) ?></strong></p>
         <div class="box">
             <p>Waktu server: <code><?= $waktu ?></code></p>
             <p>Dijalankan di <strong>Docker</strong> di Hugging Face Spaces ✅</p>
