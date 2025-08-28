@@ -16,7 +16,7 @@ $waktu = date("Y-m-d H:i:s");
 </head>
 <body>
     <div class="container">
-        <h1>SELAMAT DATANG DI WESBITE PHP PAUNDRA!</h1>
+        <h1>SELAMAT DATANG DI WESBITE PAUNDRA!</h1>
         <p>Semoga anda sehat selalu, sejahtera, dan dilimpahkan rejekinya. Dan lulus 2,5 TAHUN <strong><?= htmlspecialchars($nama) ?></strong></p>
         <div class="box">
             <p>Waktu server: <code><?= $waktu ?></code></p>
